@@ -1,15 +1,23 @@
 "use client";
 
 //update with scroll framer motion for about section
-import React from 'react'
+import React, { useRef } from 'react'
 import SectionHeading from './section-heading'
-import {motion} from 'framer-motion'
+import {motion, useScroll, useTransform} from 'framer-motion'
 export default function About() {
+  const ref = useRef<HTMLDivElement>(null);
+  const {scrollYProgress} = useScroll({
+      target: ref,
+      offset:[ "0 1", "1.33 1"],
+  });
+  const scaleProgress = useTransform(scrollYProgress, [0,1], [0.8,1]);
+  const opacityProgress = useTransform(scrollYProgress, [0,1], [0.6,1]);
+
   return (
-    <motion.section className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40'
-    initial= {{opacity: 0, y:100}}
-    animate= {{opacity:1, y:0}}
-    transition={{delay:0.00100000075}}
+    <motion.section ref = {ref} style= {{scale:scaleProgress, opacity:opacityProgress,}} className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40'
+    // initial= {{opacity: 0, y:100}}
+    // animate= {{opacity:1, y:0}}
+    // transition={{delay:0.00100000075}}
     >
         <SectionHeading> About me</SectionHeading>
         <p className='mb-3'>
