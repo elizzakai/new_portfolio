@@ -106,7 +106,7 @@ export const experiencesData = [
     location: "Atlanta, GA",
     description:
       "I'm graduating this fall with a degree in Computational Media 🤠. My stack includes React, Typescript, Java, Python, SQL, Angular, I'm open to new grad opportunities.",
-      icon: React.createElement(FaReact),
+      icon: React.createElement(LuGraduationCap),
     date: "2023 - present",
   },
 ] as const;
