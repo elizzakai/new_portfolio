@@ -47,7 +47,6 @@ export default function Skills() {
           </motion.li>
         ))}
       </ul>
-      hi
     </section>
   );
 }
