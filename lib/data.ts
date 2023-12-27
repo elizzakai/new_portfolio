@@ -1,12 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import atl0 from "@/public/atl1.png";
 import retrig from "@/public/retrig.png";
+import tree from "@/public/trees.png";
 
 export const links = [
   {
@@ -99,7 +98,7 @@ export const experiencesData = [
     description:
       "Currently working on investigating and mapping the  missing trees in Atlanta, and currently created a script to find images of all the addresses in our csv datasets.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 - 2023",
   },
   {
     title: "Graduating from Georgia Tech",
@@ -112,6 +111,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Ghosts of a city in a forest",
+    description:
+    "Dataset: Created a python function with openai API to find the type of tree(s) and number of trees dead per address; Map: Designed 10,000 trees graveyard with mapbox and JavaScript",
+    tags: ["Mapbox, JS, Figma, Python, OpenAI"],
+    imageUrl: tree,
+  },
+
   {
     title: "Homey Instagram",
     description:
