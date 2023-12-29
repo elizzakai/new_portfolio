@@ -117,6 +117,7 @@ export const projectsData = [
     "Dataset: Created a python function with openai API to find the type of tree(s) and number of trees dead per address; Map: Designed 10,000 trees graveyard with mapbox and JavaScript",
     tags: ["Mapbox, JS, Figma, Python, OpenAI"],
     imageUrl: tree,
+    link: "https://github.com/elizzakai/ghost-trees",
   },
 
   {
@@ -125,6 +126,7 @@ export const projectsData = [
       "Collaborated in creating a redesign of Instagram wherein the focus is strengthening and displaying current relationships.",
     tags: ["Figma"],
     imageUrl: corpcommentImg,
+    link: "https://elizzakai.github.io/my_Portfolio/instagram.html",
   },
   {
     title: "Retrigger App & Device",
@@ -132,6 +134,7 @@ export const projectsData = [
       "Investigated the problem space of chronic health and protoyped a product",
     tags: ["Figma", "Adobe"],
     imageUrl: retrig,
+    link: "https://elizzakai.github.io/my_Portfolio/retrigger.html",
   },
   {
     title: "Design Futuring: The Community ",
@@ -139,6 +142,7 @@ export const projectsData = [
       "Worked on creating products that exist in an alternate ecosystem where fresh food acess is limited & expensive.",
     tags: ["Figma"],
     imageUrl: wordanalyticsImg,
+    link: "https://docs.google.com/presentation/d/14Dw2r7M9KEHGigbZQji972OYUroucZGS1bbOVxVFJ_8/edit?usp=sharing",
   },
   {
     title: "Atlanta Surveillance Mapping",
@@ -146,6 +150,7 @@ export const projectsData = [
       "Worked on mapping surveillance in Atlanta using Arcgis",
     tags: ["Figma", "Arcgis"],
     imageUrl: atl0,
+    link: "https://docs.google.com/presentation/d/1Yy5tih_f6MhrZ4Fa5lmHuy6ILKSV6TFg-vFVCzRj7-g/edit?usp=sharing"
   },
 ] as const;
 
