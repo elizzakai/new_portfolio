@@ -6,6 +6,10 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import atl0 from "@/public/atl1.png";
 import retrig from "@/public/retrig.png";
 import tree from "@/public/trees.png";
+import gba from "@/public/GBA.png";
+import duo from "@/public/duo.png";
+import supp from "@/public/supply.png";
+import game from "@/public/games.png";
 
 export const links = [
   {
@@ -152,6 +156,39 @@ export const projectsData = [
     imageUrl: atl0,
     link: "https://docs.google.com/presentation/d/1Yy5tih_f6MhrZ4Fa5lmHuy6ILKSV6TFg-vFVCzRj7-g/edit?usp=sharing"
   },
+  {
+    title: "Tipton Trouble Game",
+    description:
+      "Created a game for the Gameboyadvance with collision mapping and xl screens",
+    tags: ["R"],
+    imageUrl: gba,
+    link: "https://gba.ninja/?autorun=https://elizzakai.github.io/Final/Project.gba"
+  },
+  {
+    title: "Product Feature: Duolingo RELICS",
+    description:
+      "A feature for increasing learning engagement by learning about the culture ",
+    tags: ["Figma"],
+    imageUrl: duo,
+    link: "https://elizzakai.github.io/my_Portfolio/duolingo.html"
+  },
+  {
+    title: "Supply Arch for Woodruff Park, ATL",
+    description:
+      "Our [Supply-Arch] helps [park patrons] who experience [a disruption in publicly-accessible resources]",
+    tags: ["CAD", "Paper-Products"],
+    imageUrl: supp,
+    link: "https://elizzakai.github.io/my_Portfolio/supplyarch.html"
+  },
+  {
+    title: "GameStore",
+    description:
+      "Back-end API  inventory management web service for a video game store",
+    tags: ["Java", "REST", "GraphQL"],
+    imageUrl: game,
+    link: "https://docs.google.com/presentation/d/1GWe-yl8y-do4tIIusjvt6XjtTSqXxG2FaLFnNhwroeU/edit?usp=sharing"
+  }
+  
 ] as const;
 
 export const skillsData = [
