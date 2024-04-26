@@ -159,8 +159,8 @@ export const projectsData = [
   {
     title: "Tipton Trouble Game",
     description:
-      "Created a game for the Gameboyadvance with collision mapping and xl screens",
-    tags: ["R"],
+      "Created a game for the Gameboyadvanced with collision mapping, xl screens and looping audio",
+    tags: ["C"],
     imageUrl: gba,
     link: "https://gba.ninja/?autorun=https://elizzakai.github.io/Final/Project.gba"
   },
