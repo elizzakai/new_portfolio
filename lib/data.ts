@@ -121,7 +121,7 @@ export const projectsData = [
     "Dataset: Created a python function with openai API to find the type of tree(s) and number of trees dead per address; Map: Designed 10,000 trees graveyard with mapbox and JavaScript",
     tags: ["Mapbox, JS, Figma, Python, OpenAI"],
     imageUrl: tree,
-    link: "https://github.com/elizzakai/ghost-trees",
+    link: "https://otherecologies.com/obituaries.html",
   },
 
   {
