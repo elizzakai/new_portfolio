@@ -110,7 +110,15 @@ export const experiencesData = [
     description:
       "I'm graduating this fall with a degree in Computational Media 🤠. My stack includes React, Typescript, Java, Python, SQL, Angular, I'm open to new grad opportunities.",
       icon: React.createElement(LuGraduationCap),
-    date: "2023 - present",
+    date: "Dec 2023",
+  },
+  {
+    title: "Starting @ Apple",
+    location: "Austin, TX",
+    description:
+      "I'm on the Corporate Systems Engineering team working as a ServiceNow Developer using javascript, html/css.",
+      icon: React.createElement(CgWorkAlt),
+    date: "2024-present",
   },
 ] as const;
 
@@ -121,7 +129,7 @@ export const projectsData = [
     "Dataset: Created a python function with openai API to find the type of tree(s) and number of trees dead per address; Map: Designed 10,000 trees graveyard with mapbox and JavaScript",
     tags: ["Mapbox, JS, Figma, Python, OpenAI"],
     imageUrl: tree,
-    link: "https://otherecologies.com/obituaries.html",
+    link: "https://otherecologies.com/",
   },
 
   {
