@@ -116,7 +116,7 @@ export const experiencesData = [
     title: "Starting @ Apple",
     location: "Austin, TX",
     description:
-      "I'm on the Corporate Systems Engineering team working as a ServiceNow Developer using javascript, html/css.",
+      "I'm on the Corporate Systems Engineering team working as a Developer using javascript, html/css, Flask, and Angular JS.",
       icon: React.createElement(CgWorkAlt),
     date: "2024-present",
   },
