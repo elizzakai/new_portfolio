@@ -80,7 +80,7 @@ export default function Intro() {
             Contact me here  <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' /> 
           </Link>
 
-            <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer borderBlack' href="/cv_elizza_develop.pdf" download>
+            <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer borderBlack' href="/cv_liza_dev.pdf" download>
               develop.CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/>
             </a>
 
